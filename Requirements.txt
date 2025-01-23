@@ -17,7 +17,6 @@ from langchain_chroma import Chroma
 from langchain_core.example_selectors import MaxMarginalRelevanceExampleSelector
 from langchain_ollama import OllamaEmbeddings
 from ollama import Client
-from secret import OPENAI_API_KEY
 from formal_specification.prompts_test import SYSTEM_PROMPT
 
 # Redirect pysqlite3 to sqlite3
