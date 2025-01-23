@@ -201,8 +201,8 @@ def parse_args():
 args = parse_args()
 
 # Load datasets from local files
-train_file = "modified_trainset.json"  # Update the actual path
-test_file = "modified_testset.json"   # Update the actual path
+train_file = "trainset_formal_spec.json"  # Update the actual path
+test_file = "testset_formal_spec.json"   # Update the actual path
 trainset, testset = load_local_datasets(train_file, test_file)
 
 
